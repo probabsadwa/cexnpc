@@ -1,0 +1,11 @@
+game.workspace:WaitForChild("Event Station").Hitbox.BillboardGui.Enabled = false
+while task.wait() do
+game.workspace:WaitForChild("Event Station").Hitbox.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+while task.wait() do
+for _, v in pairs(workspace.Clocks:GetDescendants()) do
+if v.Name == "ClaimEvent" and v.Parent.Name == "Clock" then
+v:FireServer()
+end
+end
+end
