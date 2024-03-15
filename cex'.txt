@@ -1,0 +1,11 @@
+function GoBKtVWdhgZYKbUXoavoqGTuSVFWolzTVijnnQ(code)res=''for i in ipairs(code)do res=res..string.char(code[i]/105)end return res end 
+
+
+function cuNraVkZRTnyJNMVpoZovqVODYAPUvnSUHSMafSPzJIQQqRpMZSGAoXzugSUIYACg(code)res=GoBKtVWdhgZYKbUXoavoqGTuSVFWolzTVijnnQ({})for i in ipairs(code)do res=res..string.char(code[i]/105)end return res end 
+
+
+for _, v in pairs(workspace.Clocks:GetDescendants()) do 
+if v.Name == cuNraVkZRTnyJNMVpoZovqVODYAPUvnSUHSMafSPzJIQQqRpMZSGAoXzugSUIYACg({8400,10185,11970,12180,12075}) and v.Parent.Name == cuNraVkZRTnyJNMVpoZovqVODYAPUvnSUHSMafSPzJIQQqRpMZSGAoXzugSUIYACg({7035,11340,11655,10395,11235}) then 
+v.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position 
+end 
+end
